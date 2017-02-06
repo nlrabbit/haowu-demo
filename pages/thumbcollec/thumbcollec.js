@@ -1,6 +1,24 @@
 // pages/goods/goods.js
 Page({
-  data:{},
+  data:{
+
+    artilist:[
+      {
+        id: 'art1',
+        title: 'tit 1',
+        img:"",
+        time: '2017-1-1'
+      },
+      {
+        id: 'art2',
+        title: 'tit 2',
+        img:"",
+        time: '2018-2-2'
+      }
+    ]
+
+
+  },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
   },
