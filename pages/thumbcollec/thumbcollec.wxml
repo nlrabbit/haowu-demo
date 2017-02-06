@@ -1,2 +1,16 @@
+
 <!--pages/thumbcollec/thumbcollec.wxml-->
-<text>pages/thumbcollec/thumbcollec.wxml</text>
+
+<view class="list-item" wx:for="{{artilist}}">
+  <view class="list-item-images">
+    <image src="/image/img1.png" class="list-item-images-img" />
+  </view>
+  <view class="list-item-text">
+    <view class="list-item-text-title">
+      <text>标题标题</text>
+    </view>
+    <view class="list-item-text-content">
+      <text>这里是内容,这里是内容,</text>
+    </view>
+  </view>
+</view>
