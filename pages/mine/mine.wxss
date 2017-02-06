@@ -1,5 +1,10 @@
 /* pages/mine/mine.wxss */
 
+.sep {
+  background-color: #f8f8f8;
+  height: 50rpx;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -17,7 +22,91 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+.body {
+  width: 100%;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  overflow: hidden;
+  Margin:10px;
+  border:10px solid #f7f7f7;
+  border-bottom-width: 0px;
 }
 
+.widgets__item {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 4rpx;
+  cursor: pointer;
+}
+
+.widgets__info {
+  display: flex;
+  padding: 40rpx;
+  align-items: center;
+  flex-direction: row;
+}
+
+.widgets__info_show {
+}
+
+.widgets__info_show .widgets__info-img {
+}
+
+.widgets__info-name {
+  flex: 1;
+}
+
+.widgets__info-img {
+  width: 32rpx;
+  height: 32rpx;
+  transition: transform 0.4s;
+}
+
+.widgets__info-img-right {
+  width: 32rpx;
+  height: 32rpx;
+  transition: transform 0.4s;
+  float:right;
+}
+
+.widgets__list {
+  display: none;
+}
+
+.widgets__list_show {
+  display: block;
+}
+
+.widget {
+  position: relative;
+  padding-top: 26rpx;
+  padding-bottom: 26rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+
+.widget__arrow {
+  position: absolute;
+  top: 28rpx;
+  right: 44rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.widget__line {
+  content: " ";
+  position: absolute;
+  left: 40rpx;
+  top: 0;
+  right: 0;
+  height: 2rpx;
+  background-color: #f0f0f0;
+}
+
+.widget__line_first {
+  left: 0;
+  right: 0;
+  background-color: #d8d8d8;
+}

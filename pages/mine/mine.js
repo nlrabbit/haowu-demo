@@ -4,27 +4,23 @@ var app = getApp()
 Page({
   data:{
     motto: 'Hello World',
-    list: [
+    minelist: [
       {
         id: 'mymsg',
         name: '我的消息',
-        open: false,
         pages: 'mymsg'
       },{
         id: 'mycollec',
         name: '我的收藏',
-        open: false,
-        pages: 'mycollec'
+        pages: 'thumbcollec'
       },{
         id: 'mycomm',
         name: '我的评论',
-        open: false,
         pages: 'mycomm'
       },{
         id: 'mythumb',
         name: '我的点赞',
-        open: false,
-        pages: 'mythumb'
+        pages: 'thumbcollec'
       }
     ]
   },
