@@ -1,0 +1,31 @@
+
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+  <view class="sep">  </view> 
+
+  <view class="body">
+    <view class="widgets">
+      <block wx:for-items="{{minelist}}">
+        <view class="widgets__item">
+
+        <navigator url="../thumbcollec/{{item.pages}}" >
+          <view id="{{item.id}}" class="widgets__info_show" >
+            <image class="widgets__info-img" src="/image/icon_API_HL.png" mode="aspectFill" />
+            <text class="widgets__info-name">{{item.name}}</text>
+            <image class="widgets__info-img-right" src="/image/arrowright.png" mode="aspectFill" />
+          </view>
+
+
+        </navigator>
+
+        </view>
+      </block>
+    </view>
+  </view> 
+  
+</view>

@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/cata/cata",
+    "pages/goods/goods",
+    "pages/search/search",    
+    "pages/thumbcollec/thumbcollec"
+    
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/cata/cata",
+      "text": "分类"
+    }, {
+      "pagePath": "pages/goods/goods",
+      "text": "好物"
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "搜索"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小小包麻麻-demo",
+    "navigationBarTextStyle":"black"
+  }
+}
