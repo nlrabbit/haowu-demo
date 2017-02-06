@@ -1,8 +1,53 @@
 // pages/mine/mine.js
+var app = getApp()
+
 Page({
-  data:{},
+  data:{
+    motto: 'Hello World',
+    list: [
+      {
+        id: 'mymsg',
+        name: '我的消息',
+        open: false,
+        pages: 'mymsg'
+      },{
+        id: 'mycollec',
+        name: '我的收藏',
+        open: false,
+        pages: 'mycollec'
+      },{
+        id: 'mycomm',
+        name: '我的评论',
+        open: false,
+        pages: 'mycomm'
+      },{
+        id: 'mythumb',
+        name: '我的点赞',
+        open: false,
+        pages: 'mythumb'
+      }
+    ]
+  },
+
+
+
+
+  bindViewTap: function() {
+    wx.navigateTo({
+      url: '../logs/logs'
+    })
+  },
+
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
+    var that = this
+    //调用应用实例的方法获取全局数据
+    app.getUserInfo(function(userInfo){
+      //更新数据
+      that.setData({
+        userInfo:userInfo
+      })
+    })
   },
   onReady:function(){
     // 页面渲染完成
