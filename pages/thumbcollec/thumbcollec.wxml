@@ -1,16 +1,16 @@
 
 <!--pages/thumbcollec/thumbcollec.wxml-->
 
-<view class="list-item" wx:for="{{artilist}}">
+<view class="list-item" style='margin:10px;display: flex;border-bottom:1px solid #ccc;' wx:for="{{artilist}}">
   <view class="list-item-images">
     <image src="/image/img1.png" class="list-item-images-img" />
   </view>
   <view class="list-item-text">
     <view class="list-item-text-title">
-      <text>标题标题</text>
+      <text>{{item.title}}</text>
     </view>
-    <view class="list-item-text-content">
-      <text>这里是内容,这里是内容,</text>
+    <view class="list-item-text-time">
+      <text>{{item.time}}</text>
     </view>
   </view>
 </view>

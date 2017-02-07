@@ -5,13 +5,13 @@ Page({
     artilist:[
       {
         id: 'art1',
-        title: 'tit 1',
+        title: 'Title 1',
         img:"",
         time: '2017-1-1'
       },
       {
         id: 'art2',
-        title: 'tit 2',
+        title: 'Title 2',
         img:"",
         time: '2018-2-2'
       }

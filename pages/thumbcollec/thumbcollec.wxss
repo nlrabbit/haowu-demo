@@ -1,6 +1,5 @@
 /* pages/thumbcollec/thumbcollec.wxss */.selection{
   border-bottom: 5px solid #ddd;
-
 }
 
 
@@ -60,18 +59,18 @@
 }
 
 .list-item{
-  height: 500rpx;
+  height: 100rpx;
   width: 100%;
 }
 .list-item-images{
-   height: 300rpx;
-   width: 100%;
+   height: 100rpx;
+   width: 100rpx;
    position: relative;
 }
 
 .list-item-images-img{
-   height: 100%;
-   width: 100%;
+   height: 100rpx;
+   width: 100rpx;
 }
 
 
@@ -88,14 +87,19 @@
 .list-item-text{
   height: 200rpx;
   width: 96%;
-  margin-top: 20rpx;
   padding-left: 2%;
   padding-right: 2%; 
 }
 
-.list-item-text-content{
+.list-item-text-time{
   font-size: 10px;
   color: #999;
-  margin-top: 20rpx;
+
+
+  float:right;
+  position:absolute;
+  
+  right:10px;
+
 
 }

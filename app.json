@@ -1,13 +1,11 @@
 {
   "pages":[
-    "pages/thumbcollec/thumbcollec",
-    "pages/mine/mine",
     "pages/index/index",
+    "pages/mine/mine",    
     "pages/cata/cata",
     "pages/goods/goods",
-    "pages/search/search"    
-    
-    
+    "pages/search/search",
+    "pages/thumbcollec/thumbcollec"    
   ],
   "tabBar": {
     "list": [{
