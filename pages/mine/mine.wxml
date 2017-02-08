@@ -13,7 +13,7 @@
       <block wx:for-items="{{minelist}}">
         <view class="widgets__item">
 
-        <navigator url="../thumbcollec/{{item.pages}}" >
+        <navigator url="../{{item.pages}}/{{item.pages}}" >
           <view id="{{item.id}}" class="widgets__info_show" >
             <image class="widgets__info-img" src="/image/icon_API_HL.png" mode="aspectFill" />
             <text class="widgets__info-name">{{item.name}}</text>

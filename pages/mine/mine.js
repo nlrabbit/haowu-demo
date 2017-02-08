@@ -16,7 +16,7 @@ Page({
       },{
         id: 'mycomm',
         name: '我的评论',
-        pages: 'mycomm'
+        pages: 'comments'
       },{
         id: 'mythumb',
         name: '我的点赞',
